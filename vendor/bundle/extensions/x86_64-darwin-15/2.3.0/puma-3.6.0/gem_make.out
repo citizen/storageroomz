@@ -1,5 +1,5 @@
-current directory: /Users/jeremysuarez/storageroomz/vendor/bundle/gems/puma-3.6.0/ext/puma_http11
-/usr/local/opt/ruby/bin/ruby -r ./siteconf20161001-24014-1t5c2a5.rb extconf.rb
+current directory: /Users/jeremysuarez/ParkLender/vendor/bundle/gems/puma-3.6.0/ext/puma_http11
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20161029-88985-1jkr5ph.rb extconf.rb
 checking for BIO_read() in -lcrypto... yes
 checking for SSL_CTX_new() in -lssl... yes
 checking for openssl/bio.h... yes
@@ -7,18 +7,18 @@ creating Makefile
 
 To see why this extension failed to compile, please check the mkmf.log which can be found here:
 
-  /Users/jeremysuarez/storageroomz/vendor/bundle/extensions/x86_64-darwin-15/2.3.0/puma-3.6.0/mkmf.log
+  /Users/jeremysuarez/ParkLender/vendor/bundle/extensions/x86_64-darwin-15/2.3.0/puma-3.6.0/mkmf.log
 
-current directory: /Users/jeremysuarez/storageroomz/vendor/bundle/gems/puma-3.6.0/ext/puma_http11
+current directory: /Users/jeremysuarez/ParkLender/vendor/bundle/gems/puma-3.6.0/ext/puma_http11
 make "DESTDIR=" clean
 
-current directory: /Users/jeremysuarez/storageroomz/vendor/bundle/gems/puma-3.6.0/ext/puma_http11
+current directory: /Users/jeremysuarez/ParkLender/vendor/bundle/gems/puma-3.6.0/ext/puma_http11
 make "DESTDIR="
 compiling http11_parser.c
 ext/puma_http11/http11_parser.rl:111:17: warning: comparison of integers of different signs: 'long' and 'unsigned long' [-Wsign-compare]
   assert(pe - p == len - off && "pointers aren't same distance");
          ~~~~~~ ^  ~~~~~~~~~
-/usr/include/assert.h:93:25: note: expanded from macro 'assert'
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/assert.h:93:25: note: expanded from macro 'assert'
     (__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __FILE__, __LINE__, #e) : (void)0)
                         ^
 ext/puma_http11/http11_parser.c:43:18: warning: unused variable 'puma_parser_en_main' [-Wunused-const-variable]
@@ -37,6 +37,6 @@ mini_ssl.c:246:13: warning: implicit conversion loses integer precision: 'unsign
 compiling puma_http11.c
 linking shared-object puma/puma_http11.bundle
 
-current directory: /Users/jeremysuarez/storageroomz/vendor/bundle/gems/puma-3.6.0/ext/puma_http11
+current directory: /Users/jeremysuarez/ParkLender/vendor/bundle/gems/puma-3.6.0/ext/puma_http11
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20161001-24014-d22x5/puma
+/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20161029-88985-wlfjy6/puma

@@ -1,0 +1,47 @@
+.reviews-index-container {
+  position: relative;
+  text-align: left;
+  min-height: 50vh;
+
+  .row {
+    width: 50%;
+    padding: 20px 0;
+    border-bottom: 1px solid gray;
+  }
+
+  .review-host-photo-container {
+    display: block;
+    float: left;
+    text-align: center;
+    width: auto;
+    padding: 0 50px;
+
+    img {
+      border-radius: 50%;
+      border: 3px solid gray;
+      height: 100px;
+      width: 100px;
+      box-shadow: 2px, 2px, 2px, #888888;
+      margin: 10px;
+    }
+
+    span {
+      display: block;
+      color: black;
+      font-weight: bold;
+      font-size: 1.2em;
+      text-align: center;
+    }
+  }
+
+  .review-content-container {
+    display: block;
+    padding-top: 30px;
+    font-size: 1.1em;
+    font-style: italic;
+
+    .review-date {
+      font-size: 1em;
+    }
+  }
+}

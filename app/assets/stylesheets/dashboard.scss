@@ -1,0 +1,65 @@
+.dashboard-container {
+  position: relative;
+  margin: 50px 100px;
+}
+
+.tabs-container {
+  width: 20%;
+  float: left;
+  border: 1px solid gray;
+
+  div {
+    text-align: center;
+    outline: 1px solid #ccc;
+    padding: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+
+  div:hover {
+    background-color: #eee;
+  }
+
+  div.active {
+    background-color: #ccc;
+  }
+}
+
+.dashboard {
+  width: 80%;
+  float: left;
+  text-align: center;
+  h1 { margin: 0; margin-bottom: 1em; }
+
+  .row {
+    h1 { margin: 0; margin-bottom: 1em; }
+  }
+  .continue-button {
+    display: initial;
+  }
+}
+
+div.img-preview.profile-view {
+  border: 1px solid;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  margin: 10px auto;
+  margin-top: 0;
+  display: flex;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+ul.notices {
+  list-style: none;
+  padding: 0;
+  li { padding: 10px }
+  li.success { background: #bde6bd; }
+  li.error { background: pink; }
+  li > a { text-decoration: none; }
+}

@@ -1,10 +1,9 @@
-current directory: /Users/jeremysuarez/storageroomz/vendor/bundle/gems/nokogiri-1.6.8/ext/nokogiri
-/usr/local/opt/ruby/bin/ruby -r ./siteconf20161001-24014-z2y3j9.rb extconf.rb --use-system-libraries
+current directory: /Users/jeremysuarez/ParkLender/vendor/bundle/gems/nokogiri-1.6.8/ext/nokogiri
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20161029-88985-y9idxk.rb extconf.rb --use-system-libraries
 Using pkg-config version 1.1.7
 checking if the C compiler accepts ... yes
 checking if the C compiler accepts -Wno-error=unused-command-line-argument-hard-error-in-future... no
 Building nokogiri using system libraries.
-WARNING: libxml2 version 2.9.3 or later is highly recommended, but proceeding anyway.
 checking for xmlParseDoc() in libxml/parser.h... yes
 checking for xsltParseStylesheetDoc() in libxslt/xslt.h... yes
 checking for exsltFuncRegister() in libexslt/exslt.h... yes
@@ -19,12 +18,12 @@ creating Makefile
 
 To see why this extension failed to compile, please check the mkmf.log which can be found here:
 
-  /Users/jeremysuarez/storageroomz/vendor/bundle/extensions/x86_64-darwin-15/2.3.0/nokogiri-1.6.8/mkmf.log
+  /Users/jeremysuarez/ParkLender/vendor/bundle/extensions/x86_64-darwin-15/2.3.0/nokogiri-1.6.8/mkmf.log
 
-current directory: /Users/jeremysuarez/storageroomz/vendor/bundle/gems/nokogiri-1.6.8/ext/nokogiri
+current directory: /Users/jeremysuarez/ParkLender/vendor/bundle/gems/nokogiri-1.6.8/ext/nokogiri
 make "DESTDIR=" clean
 
-current directory: /Users/jeremysuarez/storageroomz/vendor/bundle/gems/nokogiri-1.6.8/ext/nokogiri
+current directory: /Users/jeremysuarez/ParkLender/vendor/bundle/gems/nokogiri-1.6.8/ext/nokogiri
 make "DESTDIR="
 compiling html_document.c
 compiling html_element_description.c
@@ -102,8 +101,8 @@ rb_data_object_get(VALUE obj)
 linking shared-object nokogiri/nokogiri.bundle
 Using pkg-config version 1.1.7
 Cleaning files only used during build.
-rm -rf /Users/jeremysuarez/storageroomz/vendor/bundle/gems/nokogiri-1.6.8/ports/archives
+rm -rf /Users/jeremysuarez/ParkLender/vendor/bundle/gems/nokogiri-1.6.8/ports/archives
 
-current directory: /Users/jeremysuarez/storageroomz/vendor/bundle/gems/nokogiri-1.6.8/ext/nokogiri
+current directory: /Users/jeremysuarez/ParkLender/vendor/bundle/gems/nokogiri-1.6.8/ext/nokogiri
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 nokogiri.bundle ./.gem.20161001-24014-dvypzg/nokogiri
+/usr/bin/install -c -m 0755 nokogiri.bundle ./.gem.20161029-88985-xvmuh1/nokogiri

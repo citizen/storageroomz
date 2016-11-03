@@ -1,0 +1,111 @@
+.spot-index-container {
+  position: fixed;
+  top: $top-offset-of-spot-index;
+  overflow-y: scroll;
+  height: calc(100% - 180px);
+  width: 60%;
+  border-bottom: 1px solid #dce0e0;
+}
+
+#spot-modal {
+  display: none;
+  position: fixed;
+  background-color: rgba(0,0,0,0.1);
+  left: 0;
+  right: 0;
+  top: 50px;
+  bottom: 0;
+  z-index: 10;
+}
+
+.spot-index-item {
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+
+.spot-index-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.listing-photo-container {
+  display: block;
+  position: relative;
+}
+
+.picture-overflow {
+  overflow: hidden;
+  height: 200px;
+}
+
+img.main-photo {
+  cursor: pointer;
+  display: block;
+  width: 120%;
+  height: auto;
+}
+
+.spot-item-host-photo {
+  position: absolute;
+  border: 2px solid white;
+  background-color: #ccc;
+  border-radius: 50%;
+  bottom: -10px;
+  right: 3%;
+  width: 20%;
+  cursor: pointer;
+}
+
+.spot-prices {
+  position: absolute;
+  padding: 5px;
+  left: 0;
+  bottom: 3%;
+  list-style: none;
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.price-tag {
+  padding-right: 5px;
+}
+
+.spot-caption-container {
+  display: block;
+  position: relative;
+  padding-left: 8px;
+}
+
+.spot-title {
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+i.star {
+  height: 16px;
+  width: 16px;
+  font-size: inherit;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+i.gold.star {
+  color: #FFB400;
+
+}
+i.gray.star {
+  color: #ccc;
+}
+
+h2.sorry {
+  color: #9c9595;
+}

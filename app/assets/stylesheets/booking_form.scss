@@ -1,0 +1,239 @@
+form.booking-form.clearfix {
+  display: inline-block;
+  position: absolute;
+  top: -43px;
+  right: 5em;
+  width: 400px;
+  border-radius: 5px;
+  border: 2px solid gray;
+  box-shadow: 3px 3px 2px #888888;
+}
+
+.booking-price {
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  font-size: 30px;
+  padding: 0 40px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.booking-content {
+  background-color: white;
+  border-radius: 5px;
+
+  td:hover {
+    background-color: #ccc;
+  }
+}
+
+
+.booking-form.form-inline {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.booking-form > label {
+  padding-left: 5px;
+}
+
+.booking-form input {
+  height: 25px;
+  width: 133px;
+}
+
+.booking-form label {
+  margin: 10px;
+}
+
+input.react-date-field__input {
+  width: 85px;
+}
+
+.booking-form.row {
+  text-align: center;
+}
+
+.booking-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.booking-form button {
+  display: block;
+  padding: 5px 10px;
+  margin: 10px;
+  background-color: #699436;
+  color: white;
+  border-radius: 5px;
+  float: left;
+  min-width: 120px;
+}
+
+.booking-form button.cancel-button {
+  background-color: #f44336;
+}
+
+.booking-form button.pending-button {
+  background-color: #ccc;
+}
+
+.col-lg-2.col-md-2 {
+  padding: 20px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.time {
+  border: 1px solid gray;
+  padding-left: 30px;
+}
+
+.booking-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.charged {
+  width: 80%;
+  border-top: 1px solid gray;
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+
+  .italicize-text {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+.countdown {
+  margin-bottom: 20px;
+  display: inline-block;
+
+  img {
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+  }
+}
+
+select.price-blocks {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+strong.timer {
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+.booking-content > div.row {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.booking-content > div.row {
+  display: flex;
+  justify-content: center;
+}
+
+.booking-form label {
+  width: 150px;
+  text-align: center;
+}
+
+input.time {
+  width: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #cccccc;
+}
+
+.input-group {
+  width: 150px;
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.booking-content > div.row {
+  display: flex;
+  justify-content: center;
+}
+
+.booking-form label {
+  width: 150px;
+  text-align: center;
+}
+
+input.time {
+  width: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #cccccc;
+}
+
+.booking-content {
+  padding-top: 15px;
+  /* padding-bottom: 15px; */
+}
+
+.booking-button-container {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.Select-control {
+  width: 150px;
+  margin-left: 10px;
+  margin-right: 10px
+}
+
+.booking-content input {
+  color: transparent;
+  text-shadow: 0 0 0 gray;
+  text-align: center;
+  cursor: pointer;
+}
+
+input.form-control {
+  height: 37px;
+  color: black;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+
+.Select-value {
+  margin-left: 15px;
+}
+
+input.form-control:disabled {
+  background-color: #f9f9f9;
+}
+
+.time-row {
+  display: flex;
+  justify-content: center;
+}
+
+.Select.Select--single.is-searchable.has-value {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 150px;
+}
+
+.Select-control {
+  margin: 0 auto;
+}
+
+.has-value.Select--single > .Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
+  color: black;
+  font-weight: 600;
+}

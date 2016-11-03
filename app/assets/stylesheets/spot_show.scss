@@ -1,0 +1,101 @@
+// SPOT IMAGE
+
+.spot-show-page {
+  background-color: #e4e4e4;
+  height: 100%;
+}
+
+.spot-show-image-overflow {
+  overflow: hidden;
+  height: 550px;
+  width: 100%;
+  text-align: center;
+}
+
+img.spot-image {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+button.view-photo {
+  padding: 10px 20px;
+  font-size: 1em;
+  position: absolute;
+  top: -5em;
+  border: 2px solid gray;
+  left: 1em;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 5%;
+  z-index: 10;
+  color: white;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+button.view-photo:hover { opacity: 1 }
+
+body.ReactModal__Body--open {
+  overflow: hidden;
+}
+// HOST DETAILS
+
+.spot-host-details {
+  padding: 30px 0;
+  padding-left: 50px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  position: relative;
+}
+
+aside.host-photo-container {
+  display: block;
+  float: left;
+  margin-right: 30px;
+}
+
+.host-photo-container {
+
+  img {
+    border-radius: 50%;
+    border: 3px solid gray;
+    margin-bottom: 20px;
+    box-shadow: 2px, 2px, 2px, #888888;
+    height: 150px;
+    width: 150px;
+  }
+
+  span {
+    display: block;
+    text-align: center;
+    font-size: 1.3em;
+    color: #272626;
+    font-weight: bold;
+  }
+}
+
+.pin {
+  display: inline-block;
+  float: left;
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+}
+
+.spot-host-details {
+
+  h3 {
+    display: inline;
+    padding-top: 40px;
+  }
+
+  .italicize-text {
+    font-style: italic;
+    font-size: 1.2em;
+  }
+
+  .host-num-reviews {
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+}

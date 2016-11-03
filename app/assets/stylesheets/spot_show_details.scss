@@ -1,0 +1,60 @@
+.spot-show-details-container {
+  padding: 20px 0;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #eee;
+
+  .container {
+    width: 50%;
+    margin-left: 0;
+
+    .row:not(:last-child) {
+      border-bottom: 1px solid #c1bebe;
+    }
+
+    .row {
+      text-align: left;
+      font-size: 1em;
+      padding: 20px 0;
+      padding-left: 50px;
+
+      h2, h3 {
+        color: black;
+        font-weight: bold;
+      }
+
+      h3 {
+        font-size: 1.2em;
+        display: block;
+        float: left
+      }
+
+      h2 {
+        font-size: 1.3em;
+        margin-bottom: 20px;
+      }
+
+      ul {
+        display: block;
+        float: left;
+        list-style: none;
+        text-align: left;
+
+        li {
+          min-width: 40px;
+          font-weight: 600;
+          text-align: center;
+          font-style: italic;
+          padding: 5px 10px;
+          margin: 10px;
+          border: 1px solid #c1bebe;
+          border-radius: 5px;
+          background-color: white;
+          float: left;
+          box-shadow: 4px, 4px, 4px, #888888;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+# == Schema Information
+#
+# Table name: bookings
+#
+#  id         :integer          not null, primary key
+#  spot_id    :integer          not null
+#  user_id    :integer          not null
+#  host_id    :integer          not null
+#  price_type :string           not null
+#  price      :integer          not null
+#  start_time :time             not null
+#  end_time   :time             not null
+#  start_date :date             not null
+#  end_date   :date             not null
+#  status     :string           default("PENDING"), not null
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one: {}
+# column: value
+#
+two: {}
+# column: value

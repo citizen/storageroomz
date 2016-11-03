@@ -1,0 +1,75 @@
+#session-form {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 15%;
+  margin: auto;
+  z-index: 1001;
+  width: 21em;
+  height: auto;
+  background-color: white;
+  padding: 1em;
+  border-radius: 2px;
+  -moz-box-shadow:    3px 3px 5px 6px rgba(0,0,0,0.7);
+  -webkit-box-shadow: 3px 3px 5px 6px rgba(0,0,0,0.7);
+  box-shadow:         3px 3px 5px 6px rgba(0,0,0,0.7);
+}
+
+.session-form-title {
+  margin: 0;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+.session-form-btn-div {
+  display: flex;
+  justify-content: center;
+}
+
+.session-form-btn-div > button {
+  margin-left: 15px;
+  margin-right: 15px;
+  width: auto;
+  min-width: 80px;
+  border-radius: 3px;
+  border-color: transparent;
+  margin-top: 5px;
+  color: white;
+}
+
+.submit-button {
+  background-color: #ff5d62;
+}
+
+.submit-button:disabled {
+  background-color: #eee;
+  color: gray;
+  cursor: not-allowed;
+}
+
+.demo-button {
+  background-color: #8a8282;
+}
+
+.demo-button:disabled {
+  background-color: #eee;
+  color: gray;
+  cursor: not-allowed;
+}
+
+input:disabled {
+  color: #757272;
+  cursor: not-allowed;
+}
+
+ul.login-signup-form-error {
+  list-style: none;
+  padding: 5px;
+  a.text-danger { font-size: 0.8em; }
+  a.text-danger:hover { color: #a94442; text-decoration: none; cursor: inherit; }
+}
