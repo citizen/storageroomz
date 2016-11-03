@@ -39108,10 +39108,10 @@
 	  defaultUserPhoto: 'https://res.cloudinary.com/dsvkuc936/image/upload/c_scale,w_47/v1473185243/parklender_assets/default-pic.png',
 	  lookingGlass: 'https://res.cloudinary.com/dsvkuc936/image/upload/v1473034351/parklender_assets/looking-glass.png',
 	  // slideshow
-	  carDog: 'https://res.cloudinary.com/dsvkuc936/image/upload/v1473026130/slideshow/car-dog.jpg',
-	  nY: 'https://res.cloudinary.com/dsvkuc936/image/upload/c_scale,h_2752/v1473026223/slideshow/ny.jpg',
-	  ladies: 'https://res.cloudinary.com/dsvkuc936/image/upload/v1473026322/slideshow/ladies.jpg',
-	  market: 'https://res.cloudinary.com/dsvkuc936/image/upload/c_scale,h_2752/v1473026261/slideshow/market.jpg',
+	  carDog: 'http://res.cloudinary.com/hlo2p3cci/image/upload/v1478187436/StockSnap_R24H6MHRRT_useixy.jpg',
+	  nY: 'http://res.cloudinary.com/hlo2p3cci/image/upload/v1478187448/StockSnap_AF781F2F99_gqllzn.jpg',
+	  ladies: 'http://res.cloudinary.com/hlo2p3cci/image/upload/v1478187436/StockSnap_02FAEBOQ2G_zlum1f.jpg',
+	  market: 'http://res.cloudinary.com/hlo2p3cci/image/upload/v1478187439/StockSnap_B9G7OKXJ3Y_j7tiju.jpg',
 	  // photos
 	  pin: 'https://res.cloudinary.com/dsvkuc936/image/upload/c_scale,h_39/v1473101163/parklender_assets/pin.png',
 	  sadface: 'https://res.cloudinary.com/dsvkuc936/image/upload/v1472793127/sad-face_vhh0oo.png',
