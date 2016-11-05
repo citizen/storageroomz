@@ -11,7 +11,10 @@ Rails.application.routes.draw do
     end
     resources :bookings, only: [:index]
     resources :photos, only: [:index, :create, :show, :destroy]
+
   end
+
+  resources :charges
 
   root "static_pages#root"
 end
