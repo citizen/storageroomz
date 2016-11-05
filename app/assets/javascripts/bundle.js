@@ -43670,7 +43670,7 @@
 	});
 	var CITIES = {
 	  'London': {
-	    url: 'http://www.universal-tourguide.com/wp-content/uploads/2016/09/discoverlondon.jpg',
+	    url: 'http://res.cloudinary.com/hlo2p3cci/image/upload/v1478194174/StockSnap_YZ39UP63MI_avarrk.jpg',
 	    zoom: 12,
 	    center: {
 	      lat: 37.75243528806485,
@@ -43678,7 +43678,7 @@
 	    }
 	  },
 	  'Vienna': {
-	    url: 'http://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Austria/Vienna/vienna-aerial-from-stephansdom-large.jpg',
+	    url: 'http://res.cloudinary.com/hlo2p3cci/image/upload/v1478194181/StockSnap_BQ20L31Q5D_r7girk.jpg',
 	    zoom: 12,
 	    center: {
 	      lat: 37.75243528806485,
@@ -43686,7 +43686,7 @@
 	    }
 	  },
 	  'San Francisco': {
-	    url: 'http://res.cloudinary.com/dsvkuc936/image/upload/c_scale,h_600/v1475554446/featured_cities/sf.jpg',
+	    url: 'http://res.cloudinary.com/hlo2p3cci/image/upload/v1478194172/StockSnap_R6CPSAGCWK_vccofg.jpg',
 	    zoom: 12,
 	    center: {
 	      lat: 37.75243528806485,
@@ -43694,7 +43694,7 @@
 	    }
 	  },
 	  'New York': {
-	    url: 'http://res.cloudinary.com/dsvkuc936/image/upload/c_scale,h_600/v1475554428/featured_cities/ny.jpg',
+	    url: 'http://res.cloudinary.com/hlo2p3cci/image/upload/v1478194758/StockSnap_JF6PWLGRQS_z9qxv1.jpg',
 	    zoom: 14,
 	    center: {
 	      lat: 40.72843667328196,
@@ -43718,7 +43718,7 @@
 	    }
 	  },
 	  'Los Angeles': {
-	    url: 'http://res.cloudinary.com/dsvkuc936/image/upload/c_scale,h_600/v1475554449/featured_cities/los-angeles.jpg',
+	    url: 'http://res.cloudinary.com/hlo2p3cci/image/upload/v1478194172/StockSnap_85MMP94BF4_tolxr1.jpg',
 	    zoom: 14,
 	    center: {
 	      lat: 34.051991625826886,
