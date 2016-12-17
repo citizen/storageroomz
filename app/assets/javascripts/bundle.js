@@ -28359,7 +28359,7 @@
 	            _react2.default.createElement('input', { type: 'text', spellcheck: 'false',
 	              id: 'autocomplete-search-field',
 	              className: 'nav-where-to-input',
-	              placeholder: 'Find StorageRoomz',
+	              placeholder: 'Find storageroomz',
 	              onSubmit: this.goSearch })
 	          )
 	        );
@@ -41438,7 +41438,7 @@
 	          _react2.default.createElement(
 	            'header',
 	            null,
-	            'StorageRoomz'
+	            'storageroomz'
 	          ),
 	          'Store your stuff with your neighbours',
 	          _react2.default.createElement('br', null),
