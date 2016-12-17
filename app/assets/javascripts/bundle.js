@@ -41440,7 +41440,7 @@
 	            null,
 	            'storageroomz'
 	          ),
-	          'Store your stuff with your neighbours',
+	          'Local storage for all shapes and sizes',
 	          _react2.default.createElement('br', null),
 	          _react2.default.createElement(
 	            'div',
