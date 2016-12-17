@@ -41450,7 +41450,7 @@
 	              null,
 	              _react2.default.createElement('input', { type: 'text', spellcheck: 'false', id: 'home-autocomplete-search-field',
 	                className: 'home-where-to-input',
-	                placeholder: 'Find StorageRoomz' }),
+	                placeholder: 'Find storageroomz' }),
 	              _react2.default.createElement(_home_where_to2.default, { sendMap: this.sendMap }),
 	              _react2.default.createElement(
 	                'button',
